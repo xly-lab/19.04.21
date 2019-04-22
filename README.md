@@ -14,5 +14,7 @@
   - 具体实现：
   
   ` import PubSub from 'pubsub-js'`
+  
   ` PubSub.publish('消息名','消息参数')`
+  
   ` PubSub.subscribe('消息名',(msg,消息参数)=>{})`
